@@ -1,36 +1,22 @@
-# Basic Workout Tracker
+# Workout Tracker
 
 ## Overview
-Full stack exercise tracking application built with the MERN stack.  
-Users can create, view, update, and delete workout records through a responsive React interface backed by a RESTful API and MongoDB database.
+Full stack exercise application built with the MERN stack.  
+
+Users can track workout records through a responsive React interface.
 
 ## Features
-### Backend
-- RESTful API built with Node.js and Express
-- MVC architecture separating:
-  - Database models
-  - HTTP controllers
-  - API routing
-- Async/await database operations
-- Environment-based configuration using `.env` }
-
-### Frontend
-- React single-page application
-- Component-based UI architecture
+- Full CRUD workout management with MVC architectures
+- MongoDB database integration for persistent data storage
 - Client-server communication using HTTP requests
-- Vite development environment
-- Custom styling and responsive layout
-
+- Asynchronous backend operations using async/await
+  
 ## Tech Stack
+- **Frontend:** React, JavaScript (ES6+), Vite, CSS
 
-### Frontend
-React, JavaScript (ES6+), Vite, CSS
+- **Backend:** Node.js, Express.js, MongoDB, Mongoose
 
-### Backend
-Node.js, Express.js, MongoDB, Mongoose
-
-### Development Tools
-Git/GitHub, REST API design, Environment variables, MVC architecture
+- **Development Tools:** Git/GitHub, REST API design, Environment variables, MVC architecture
 
 ## Database Model
 **Exercise** document stored in MongoDB has the following properties:
@@ -60,11 +46,10 @@ Download repository
   cd workout-tracker
   ```
 ### Backend
-1. Create .env file:  
+Create .env file and install dependencies:  
+  ```bash
    PORT=3000  
    MONGODB_CONNECT_STRING=<your_mongodb_connection>  
-2. Install dependencies and start server:  
-  ```bash
    npm install
    npm start
   ```
