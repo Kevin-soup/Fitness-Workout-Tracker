@@ -4,10 +4,6 @@
 Full stack exercise tracking application built with the MERN stack.  
 Users can create, view, update, and delete workout records through a responsive React interface backed by a RESTful API and MongoDB database.
 
-The app has two main parts:
-- A **REST API backend** using Node, Express, and MongoDB.  
-- A **React frontend** SPA that interacts with the backend via HTTP requests.  
-
 ## Features
 ### Backend
 - RESTful API built with Node.js and Express
@@ -28,24 +24,15 @@ The app has two main parts:
 ## Tech Stack
 
 ### Frontend
-- React
-- JavaScript (ES6+)
-- Vite
-- CSS
+React, JavaScript (ES6+), Vite, CSS
 
 ### Backend
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
+Node.js, Express.js, MongoDB, Mongoose
 
 ### Development Tools
-- Git/GitHub
-- REST API design
-- Environment variables
-- MVC architecture
+Git/GitHub, REST API design, Environment variables, MVC architecture
 
-## Data Model
+## Database Model
 **Exercise** document stored in MongoDB has the following properties:
 
 Property | Type   | Notes
@@ -72,7 +59,6 @@ Download repository
   git clone <repository-url>
   cd workout-tracker
   ```
-
 ### Backend
 1. Create .env file:  
    PORT=3000  
@@ -86,14 +72,12 @@ Backend runs at:
   ```bash
   http://localhost:3000
   ```
-
 ### Frontend
 1. Install dependencies and run app:  
   ```bash
    npm install
    npm run dev  
   ```
-
 Frontend runs at:  
   ```bash
   http://localhost:5173  
